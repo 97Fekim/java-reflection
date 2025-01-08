@@ -1,1 +1,0 @@
-# finance-cloud-utilization-strategy
