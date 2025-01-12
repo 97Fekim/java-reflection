@@ -1,4 +1,4 @@
-package exercise2___constructor;
+package exercise2___constructor_basic;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
