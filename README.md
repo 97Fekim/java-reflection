@@ -1,7 +1,7 @@
 # 목차
 
 ## 1. Reflection 개요
-___.class, Class.forName, ___.getClass
+___.class, Class.forName(packageName.className), ___.getClass()
 ## 2. 객체 생성과 생성자
 ### 2-1. 생성자 탐색 및 객체 생성.
 Constructor<T>, getDeclaredConstructors()
