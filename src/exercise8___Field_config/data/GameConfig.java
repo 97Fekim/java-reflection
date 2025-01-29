@@ -24,10 +24,13 @@
 
 package exercise8___Field_config.data;
 
+import java.util.Arrays;
+
 public class GameConfig {
     private int releaseYear;
     private String gameName;
     private double price;
+    private String[] characterNames;
 
     public int getReleaseYear() {
         return this.releaseYear;
@@ -41,12 +44,17 @@ public class GameConfig {
         return this.price;
     }
 
+    public String[] getCharacterNames() {
+        return characterNames;
+    }
+
     @Override
     public String toString() {
         return "GameConfig{" +
                 "releaseYear=" + releaseYear +
                 ", gameName='" + gameName + '\'' +
                 ", price=" + price +
+                ", characterName=" + Arrays.toString(characterNames) +
                 '}';
     }
 }
