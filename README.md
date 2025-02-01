@@ -27,5 +27,8 @@ clazz.getDeclaredFields(), field.getType(), field.get(instance), clazz.getCompon
 - 메서드명: .getName()
 - 파라미터타입: .getReturnType().getTypeName()
 - 리턴타입: .getReturnType()
-## 5-2. 리플렉션을 이용한 다형성 구현 예제
+## 5-2. 부모 클래스가 존재하는 경우
+- 본인클래스의 메서드만 조회(접근제어자 상관X): getDeclaredMethods()
+- 부모클래스의 메서드 포함 조회(public만): getMethods()
+## 5-3. 리플렉션을 이용한 다형성 구현 예제
 - 메서드실행: .invoke(Method, args)
