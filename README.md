@@ -22,3 +22,10 @@ clazz.getDeclaredFields(), field.getType(), field.get(instance), clazz.getCompon
 - 수정: Array.set(Object, i, Value)
 - 길이: Array.getLength(Object)
 
+## 5. 메서드
+## 5-1. 메서드 기본 API
+- 메서드명: .getName()
+- 파라미터타입: .getReturnType().getTypeName()
+- 리턴타입: .getReturnType()
+## 5-2. 리플렉션을 이용한 다형성 구현 예제
+- 메서드실행: .invoke(Method, args)
