@@ -22,7 +22,7 @@
  *  SOFTWARE.
  */
 
-package exercise13___Annotation_init.annotations;
+package exercise14___Annotation_aply.annotations;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

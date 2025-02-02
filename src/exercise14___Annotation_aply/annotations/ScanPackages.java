@@ -22,7 +22,7 @@
  *  SOFTWARE.
  */
 
-package exercise13___Annotation_init.annotations;
+package exercise14___Annotation_aply.annotations;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -31,5 +31,6 @@ import java.lang.annotation.Target;
 
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.TYPE)
-public @interface InitializerClass {
+public @interface ScanPackages {
+    String[] value();
 }

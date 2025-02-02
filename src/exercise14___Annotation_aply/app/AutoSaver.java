@@ -22,14 +22,16 @@
  *  SOFTWARE.
  */
 
-package exercise13___Annotation_init.annotations;
+package app;
 
-import java.lang.annotation.ElementType;
-import java.lang.annotation.Retention;
-import java.lang.annotation.RetentionPolicy;
-import java.lang.annotation.Target;
+import annotations.InitializerClass;
+import annotations.InitializerMethod;
 
-@Retention(RetentionPolicy.RUNTIME)
-@Target(ElementType.TYPE)
-public @interface InitializerClass {
+@InitializerClass
+public class AutoSaver {
+
+    @InitializerMethod
+    public void startAutoSavingThreads() {
+        System.out.println("Start automatic data saving to disk");
+    }
 }

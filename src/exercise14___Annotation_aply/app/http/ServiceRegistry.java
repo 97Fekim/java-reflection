@@ -22,14 +22,16 @@
  *  SOFTWARE.
  */
 
-package exercise13___Annotation_init.annotations;
+package exercise14___Annotation_aply.app.http;
 
-import java.lang.annotation.ElementType;
-import java.lang.annotation.Retention;
-import java.lang.annotation.RetentionPolicy;
-import java.lang.annotation.Target;
+import exercise14___Annotation_aply.annotations.InitializerClass;
+import exercise14___Annotation_aply.annotations.InitializerMethod;
 
-@Retention(RetentionPolicy.RUNTIME)
-@Target(ElementType.TYPE)
-public @interface InitializerClass {
+@InitializerClass
+public class ServiceRegistry {
+
+    @InitializerMethod
+    public void registerService() {
+        System.out.println("Service successfully registered");
+    }
 }
