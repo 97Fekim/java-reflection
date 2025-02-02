@@ -35,7 +35,7 @@ clazz.getDeclaredFields(), field.getType(), field.get(instance), clazz.getCompon
 
 ## 6. 제어자
 - 접근제어자: public, private, protected, package-private
-- 기타제어자: interface, abstract, synchronized, transient, static, final, etc..
+- 기타제어자: interface, abstract, synchronized, transient, static, final, native, etc..
 - 제어자취득: clazz.getModifiers(), method.getModifiers(), field.getModifiers()
 - 제어자판단: Modifier.isInterface(modifier), Modifier.isStatic(), etc...
 
