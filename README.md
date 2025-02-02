@@ -39,3 +39,5 @@ clazz.getDeclaredFields(), field.getType(), field.get(instance), clazz.getCompon
 - 제어자취득: clazz.getModifiers(), method.getModifiers(), field.getModifiers()
 - 제어자판단: Modifier.isInterface(modifier), Modifier.isStatic(), etc...
 
+## 7. 어노테이션 탐색
+- @Interface, @Retention(RetentionPolicy.~~~), @Target(ElementType.~~~)
