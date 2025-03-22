@@ -44,3 +44,8 @@ clazz.getDeclaredFields(), field.getType(), field.get(instance), clazz.getCompon
 - @Interface, @Retention(RetentionPolicy.~~~), @Target(ElementType.~~~)
 ### 7-2. 어노테이션을 활용한 Connection 초기화 예제
 - clazz.getAnnotation(Class.class)
+### 7-3. 어노테이션 탐색
+- clazz.isAnnotationPresent(어노테이션명.class)
+### 7-4. 어노테이션을 활용한 그래프탐색 예제
+### 7-5. 필드 어노테이션
+### 7-6. 반복 가능한 어노테이션 (RepeatableAnnotation)
