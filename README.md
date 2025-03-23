@@ -51,3 +51,5 @@ clazz.getDeclaredFields(), field.getType(), field.get(instance), clazz.getCompon
 ### 7-6. 반복 가능한 어노테이션 (RepeatableAnnotation)
 
 ## 8. 동적 프록시
+### 8-1. 보안, 캐싱, 지연초기화, RPC 등에 활용
+### 8-2. 동적 프록시를 활용한 실행 가로채기 (InvokationHandler)
